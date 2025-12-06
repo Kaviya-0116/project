@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(to right , rgb(63, 255, 255) , rgb(255, 8, 140));
+        margin: 0;
+    }
+    .Main{
+
+        width: 80vw;
+        left: 10vw;
+        height: 80vh;
+        top: 10vh;
+        background: linear-gradient(to left , dodgerblue , blueviolet);
+        position: relative;
+        border-radius: 30px;
+    }
+    .Sub1{
+        color: white;
+        border-radius: 30px;
+        width: 30vw;
+        height: 60vh;
+        background: linear-gradient(to top , rgb(255, 0, 200), rgb(255, 0, 0));
+        position: absolute;
+        top: 10vh;
+        left: 5vw;
+        padding-left: 100px;
+        font-size: x-large;
+    }
+    input{
+        display: block;
+        width: 300px;
+        height: 50px;
+        margin-bottom: 50px;
+        border: 1px solid silver;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255,0);
+    }
+    button{
+        width: 200px;
+        height: 50px;
+        background-color: rgb(54, 0, 156);
+        color: white;
+        font-size: large;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    ::placeholder{
+        font-size: larger;
+        padding-left: 30px;
+        color: rgb(255, 255, 255);
+    }
+    .Sub2{
+        width: 45vw;
+        height: 60vh;
+        position: absolute;
+        right: 5vw;
+        top: 10vh;
+    }
+    .Sub2 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+    }
+</style>
+<body>
+    <div class="Main">
+        <div class="Sub1">
+            <h1>Sign in  here</h1>
+            <form>
+                <input type="text" placeholder="Enter name">
+                <input type="number" placeholder="Enter number">
+                <input type="email" placeholder="Enter mail">
+                <button>Sign in</button>
+            </form>
+        </div>
+        <div class="Sub2">
+            <img src="https://homeglazer.com/wp-content/uploads/2024/01/asian-paint-1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

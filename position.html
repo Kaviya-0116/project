@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            background-color:whitesmoke;
+            margin: 0;
+        }
+        .main{
+            width:100vw;
+            height:100vh;
+            background-color: aqua;
+            position: relative;
+        }
+        .box{
+            font-weight: bolder;
+            font-size: 300px;
+            width:20vw;
+            height:40vh;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            color: azure;
+            transition: all 2s ease;
+            border-radius: 30px;
+        }
+        .sub1{
+            background-color: red;
+            position: absolute;
+            top: 30vh;
+            left:4vw;
+            
+
+        }
+         .sub2{
+            background-color: green;
+            position: absolute;
+            top: 30vh;
+            left: 28vw;
+
+        }
+        .sub3{
+            background-color: dodgerblue;
+            position: absolute;
+            top:30vh;
+            right:28vw;
+        }
+        .sub4{
+            background-color: yellow;
+            position: absolute;
+            top:30vh;
+            right:4vw;
+        }
+        .sub5 img{
+            width: 300px;
+        }
+        .sub5{
+            position: fixed;
+            top: 1vh;
+        }
+        .second{
+            width: 100vw;
+            height:100vh;
+            background-color:black;
+        }
+        .main:hover .sub1{
+            background-color: azure;
+            border: 15px red solid;
+            color:red;
+            left:8vw;
+            transform: rotate(-7deg);
+        }
+        .main:hover .sub2{
+            background-color: azure;
+            border: 15px green solid;
+            color: green;
+            left:30vw;
+            transform: rotate(5deg);
+        }
+        .main:hover .sub3{
+            background-color: azure;
+             border: 15px dodgerblue solid;
+            transform: rotate(-7deg);
+            color:dodgerblue;
+
+        }
+        .main:hover .sub4{
+            background-color: azure;
+             border: 15px yellow solid;
+             right:8vw;
+             transform: rotate(5deg);
+             color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub1 box">Z</div>
+        <div class="sub2 box">O</div>
+        <div class="sub3 box">H</div>
+        <div class="sub4 box">O</div>
+
+    </div>
+    <div class="sub5">
+        <img src="https://download.logo.wine/logo/Zoho_Corporation/Zoho_Corporation-Logo.wine.png"  alt="" >                                                           
+    </div>
+    <div class="second"></div>
+    
+</body>
+</html>
